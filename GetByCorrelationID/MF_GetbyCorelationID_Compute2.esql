@@ -22,7 +22,6 @@ CREATE COMPUTE MODULE MF_GetbyCorelationID_Compute2
 --		SET OutputRoot.MQMD.CorrelId = CAST('000000000000000000000002' AS BLOB CCSID 1208);
 --		SET OutputRoot.MQMD.Format='MQSTR';
 
-
 SET OutputRoot=InputRoot;
 	END;
 END MODULE;
